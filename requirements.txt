@@ -1,0 +1,9 @@
+torch==2.4.1
+numpy==2.3.3
+scipy==1.17.1
+Pillow==11.3.0
+opencv-python-headless==4.10.0.84
+scikit-image==0.24.0
+nibabel==5.3.2
+neurite @ git+https://github.com/adalca/neurite.git@30315b4b00a490fed92a1ff3f46c1e6fdb4cabe8
+voxelmorph @ git+https://github.com/voxelmorph/voxelmorph.git@c4155e1baf04bc8f1774775b23a6027b58b37e00

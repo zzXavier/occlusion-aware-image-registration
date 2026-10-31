@@ -1,0 +1,1 @@
+Run `python run.py demo --out scratch/demo` for the held-out astronaut example. The example loads the masked checkpoint and produces an error image with a fixed 0–8 pixel scale.

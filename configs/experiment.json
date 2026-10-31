@@ -1,0 +1,20 @@
+{
+  "size": 64,
+  "seed": 1769,
+  "train_steps": 160,
+  "batch": 4,
+  "holdout_per_image": 6,
+  "train": [
+    "camera.png",
+    "coffee.png",
+    "grass.png",
+    "coins.png",
+    "brick.png",
+    "chelsea.png"
+  ],
+  "test": [
+    "astronaut.png",
+    "moon.png",
+    "rocket.jpg"
+  ]
+}
