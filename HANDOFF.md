@@ -1,8 +1,8 @@
-# P09 handoff
+# Occlusion-aware image registration handoff
 
 ## Latest verified state · 2026-11-03
 
-Public release. [Personal portfolio](https://zzxavier.github.io/projects/) and [public README](https://github.com/zzXavier/occlusion-aware-image-registration) were verified without authentication.
+The public README and experiment artifacts are available from the [repository](https://github.com/zzXavier/occlusion-aware-image-registration).
 
 Verified experiment revision: `e5c332447ec5f8464ba5639ab663516a2e569da0`. A new GitHub checkout trained both VoxelMorph arms, reloaded each checkpoint, ran the demo and reproduced the scored table for all 18 held-out pairs.
 
