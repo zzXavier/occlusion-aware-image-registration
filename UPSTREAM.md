@@ -1,9 +1,6 @@
-# Upstream sources
+# Upstream and data
 
-[voxelmorph/voxelmorph](https://github.com/voxelmorph/voxelmorph/tree/c4155e1baf04bc8f1774775b23a6027b58b37e00)
-
-- Revision: c4155e1baf04bc8f1774775b23a6027b58b37e00
-- Reported code license: Apache-2.0
-- Starting point: scripts/train.py
-- Integration: use the upstream implementation as a separately pinned dependency. Preserve the original notices when redistributing source.
-- Weights and data have separate terms. Their source, revision and attribution belong with the experiment manifest.
+- VoxelMorph commit [c4155e1](https://github.com/voxelmorph/voxelmorph/tree/c4155e1baf04bc8f1774775b23a6027b58b37e00) supplies `VxmPairwise` and the spatial transformer. The repository contains an [Apache-2.0 license file](https://github.com/voxelmorph/voxelmorph/blob/c4155e1baf04bc8f1774775b23a6027b58b37e00/LICENSE.md). Install from the pinned Git revision.
+- Neurite commit [30315b4](https://github.com/adalca/neurite/tree/30315b4b00a490fed92a1ff3f46c1e6fdb4cabe8) supplies the UNet blocks. See its bundled license and notices.
+- Input photographs come from [scikit-image 0.24](https://scikit-image.org/docs/0.24.x/api/skimage.data.html). Consult the individual image descriptions for provenance and credit. The displayed astronaut image is the NASA portrait of Eileen Collins. Inputs are loaded from the wheel; archived predictions contain geometric fields and masks.
+- This repository adds natural-image pair generation, fixed-source holdout, mask-weighted training, same-budget ablation, checkpoint reload, baseline comparison and saved-prediction evaluation. The published VoxelMorph architecture and pretrained third-party weights are not claimed as new contributions here.

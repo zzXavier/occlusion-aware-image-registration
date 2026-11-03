@@ -1,9 +1,7 @@
-# P09 交接记录
+# P09 handoff
 
-当前阶段：上游版本已固定，正式验收待完成。
+Local run `cpu-1769` completed on Windows, Python 3.11, PyTorch 2.4.1 and OpenCV 4.10. The original 2D VxmPairwise forward pass succeeded, both regression tests passed, and both trained state dicts reloaded with identical predictions on the last batch.
 
-最近已核实：项目远端以及 UPSTREAM.md 中的源码提交。
+Latest verified command: `python run.py reproduce`. Read `results/summary.csv`, or inspect per-case error and folding in `results/cases.csv`.
 
-待执行：运行上游入口 scripts/train.py ，保存日志，再按项目 README 的实验目标添加留出集对照。
-
-验收要求：从干净克隆运行演示与正式基线，使用保存的预测重建结果，涉及训练则测试权重重载。
+Next command: `python run.py demo --out scratch/demo`. For a full fresh run use `python run.py reproduce --out scratch/reproduction` and compare the regenerated table with the archived results. Real experiment limitations and test splits are documented in README.
